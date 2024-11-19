@@ -1,6 +1,6 @@
 # MasterPanel - 大师运镜操作盘
 
-![MasterPanel Logo](MasterPanel/Cover.png)
+![MasterPanel Logo](./Cover.png)
 
 MasterPanel 是一个创新的 AI 视频生成交互控制系统，旨在解决当前 AI 视频生成领域中"自由运镜"的交互痛点。本项目参加即梦AI交互创新大赛。
 
