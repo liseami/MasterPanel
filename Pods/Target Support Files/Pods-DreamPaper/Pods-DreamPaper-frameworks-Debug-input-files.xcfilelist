@@ -1,0 +1,14 @@
+${PODS_ROOT}/Target Support Files/Pods-DreamPaper/Pods-DreamPaper-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/JDStatusBarNotification/JDStatusBarNotification.framework
+${BUILT_PRODUCTS_DIR}/KakaJSON/KakaJSON.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/Lantern/Lantern.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/PanModal/PanModal.framework
+${BUILT_PRODUCTS_DIR}/SPAlert/SPAlert.framework
+${BUILT_PRODUCTS_DIR}/SwiftUIIntrospect/SwiftUIIntrospect.framework
+${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/Tagly/Tagly.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework
