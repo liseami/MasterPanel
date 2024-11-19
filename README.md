@@ -1,0 +1,84 @@
+# MasterPanel - 大师运镜操作盘
+
+![MasterPanel Logo](path_to_logo.png)
+
+MasterPanel 是一个创新的 AI 视频生成交互控制系统，旨在解决当前 AI 视频生成领域中"自由运镜"的交互痛点。本项目参加即梦AI交互创新大赛。
+
+## 🌟 核心特性
+
+- **直观的运镜控制**：将专业电影摄影的推、拉、摇、移等概念转化为移动端友好的交互界面
+- **连续生成能力**：突破传统 5-10 秒的限制，支持任意长度视频的连续生成
+- **双层交互设计**：
+  - 基础操作盘：适合入门用户，简单直观
+  - 大师控制盘：面向专业用户，支持更精细的镜头控制
+
+## 🎯 解决的问题
+
+1. **交互优化**：摒弃传统下拉选框式交互，提供符合手持运镜直觉的操作方式
+2. **突破时长限制**：通过"最后一帧接力"技术，支持长视频创作
+3. **专业级控制**：提供 pan-tilt、Zoom、roll 等专业级镜头控制能力
+
+## 🛠️ 技术实现
+
+### 前端实现 (iOS)
+- 基于 SwiftUI 开发
+- 创新的动效设计：
+  - Wave 涟漪效果
+  - 点阵覆盖 Shader
+  - 实时追随矩阵效果
+  - 控件发光反馈
+  - 镜头路径可视化
+
+### 后端 API
+
+```python
+# 主要接口
+/api/v1/images/resize          # 图片预处理
+/api/video/camera-prompts      # 镜头控制提示词生成
+/api/video/last-frame          # 最后一帧提取
+/api/prompts/translate-optimize # 提示词优化
+/api/prompts/camera-path       # 镜头路径生成
+```
+
+## 📱 UI/UX 设计
+
+- 完整设计文档：[Figma 链接](https://www.figma.com/design/3Ieex9SqYR0mnd5R5XgsOv/)
+- 适配平台：
+  - 移动端 (390x844)
+  - Web 端 (1440x900)
+
+## 🎬 演示 Demo
+
+- [下载高清4K演示视频](demo_video_link)
+- 支持格式：MOV、MP4、AVI
+- 时长：>15s
+
+## 👥 团队成员
+
+- **项目负责人**：赵纯想
+- **开发成员**：梁泽
+
+## 📄 许可证
+
+本项目采用 Commons Clause License 开源协议。仅供学习交流使用，未经授权禁止商用。
+
+## 🔗 相关链接
+
+- [项目 GitHub 仓库](repository_link)
+- [赵纯想个人网站](personal_website_link)
+
+## 💡 参与贡献
+
+欢迎提交 Issue 和 Pull Request。在提交之前，请确保：
+1. 仔细阅读我们的贡献指南
+2. 遵循现有的代码风格
+3. 编写清晰的提交信息
+
+## 📌 注意事项
+
+- 本项目仅用于参加即梦AI交互创新大赛
+- SwiftUI 源码仅供学习交流
+- 演示视频结尾有彩蛋🥚
+
+---
+© 2024 赵纯想. All Rights Reserved.
