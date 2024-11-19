@@ -1,0 +1,42 @@
+{
+  "originHash" : "2e54505145fabac9285adfa8f07dc5179acba71ce0165f5ecb652822755bbd60",
+  "pins" : [
+    {
+      "identity" : "orb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/metasidd/Orb.git",
+      "state" : {
+        "revision" : "8c5dda85e55638893f37657b56558968c3e11409",
+        "version" : "0.2.0"
+      }
+    },
+    {
+      "identity" : "pow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EmergeTools/Pow",
+      "state" : {
+        "revision" : "a504eb6d144bcf49f4f33029a2795345cb39e6b4",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIX",
+      "state" : {
+        "revision" : "e984fd2e08140ad5a95d084be38fe02b774bc15d",
+        "version" : "0.2.3"
+      }
+    },
+    {
+      "identity" : "waterfallgrid",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/paololeonardi/WaterfallGrid.git",
+      "state" : {
+        "revision" : "c7c08652c3540adf8e48409c351879b4caea7e89",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
